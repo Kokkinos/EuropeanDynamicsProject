@@ -1,6 +1,11 @@
 # EuropeanDynamicsProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+It's only an attempt for an assignment that I was given.This is not a complete project.
+This project has the following problems:
+1)Navigation to PostsComponent does not work via url.I think that is a problem of the subscribe method inside the App component.
+2)When the project reloads it does not fetch the users by default.I have to remove the /users from the url to fetch them, although this is the path for the UsersComponent. 
+
 
 ## Development server
 
