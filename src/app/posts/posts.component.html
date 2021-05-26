@@ -1,0 +1,19 @@
+<div class="row">
+    <div id="user-cred" class="col-xs-12">
+        <div class="list-group-item clearfix">
+            <h2>Name</h2>
+            <h4>email</h4>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <header id="posts">Posts</header>
+    </div>
+    <div class="col-xs-12">
+        <div class="list-group-item clearfix" *ngFor="let post of posts">
+            <div class="col-xs-3">
+                <h4><a> {{ post.title }} </a></h4>
+                <h5> {{ post.createdAt | date: 'mediumDate'}} </h5>
+            </div>
+        </div>
+    </div>
+</div>

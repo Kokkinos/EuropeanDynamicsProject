@@ -1,0 +1,32 @@
+ <div class="row">
+    <div class="col-xs-12">
+        <header id="users">Users</header>
+    </div>
+    <div class="col-xs-12">
+        <div class="list-group-item clearfix">
+            <div class="col-xs-3">
+                <p id="username">Username</p>
+            </div>
+            <div class="col-xs-3">
+                <p id="fullname">Full Name</p>
+            </div>
+            <div class="col-xs-3">
+                <p id="email">Email</p>
+            </div>
+        </div>
+        <div class="list-group-item clearfix" *ngFor="let user of users">
+            <div class="col-xs-3">
+                <p> {{ user.username }} </p>
+            </div>
+            <div class="col-xs-3">
+                <p> {{ user.name }} </p>
+            </div>
+            <div class="col-xs-3">
+                <p> {{ user.email }} </p>
+            </div>
+            <a routerLink="/users/:userId" class="col-xs-3 text-right">View Posts</a>
+        </div>
+    </div>
+</div>
+
+

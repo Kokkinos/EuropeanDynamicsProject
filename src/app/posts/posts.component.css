@@ -1,0 +1,19 @@
+a {
+    color: rgb(34, 131, 163); /* for browsers that don't support 'inherit' as a color value */
+    
+}
+
+a:hover {
+    color:rgb(24, 79, 97);
+}
+
+#posts {
+    font-weight: bold;
+    font-size: x-large;
+    font-style: normal;
+}
+
+
+#user-cred {
+    margin-bottom: 40px;
+}
